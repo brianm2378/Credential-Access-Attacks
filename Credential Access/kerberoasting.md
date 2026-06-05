@@ -14,5 +14,5 @@ A Kerberos Ticket-Granting Ticket (TGT) is a core concept in the Kerberos authen
 The Kerberos Ticket-Granting Service (TGS) is a core component of the Kerberos authentication system. It works closely with the Ticket-Granting Ticket (TGT) to enable secure, password-free access to services after login.
 
 The SPN (Service Principal Name) is a unique identifier for a specific service instance on a network. It tells the Kerberos system exactly which service a client wants to access so it can issue the correct service ticket.
-<img width="1443" height="304" alt="image" src="https://github.com/user-attachments/assets/c04b9cf8-1b1c-44c1-a605-650edd3238e1" />
+
 
