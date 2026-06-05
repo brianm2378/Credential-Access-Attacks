@@ -15,4 +15,5 @@ The Kerberos Ticket-Granting Service (TGS) is a core component of the Kerberos a
 
 The SPN (Service Principal Name) is a unique identifier for a specific service instance on a network. It tells the Kerberos system exactly which service a client wants to access so it can issue the correct service ticket.
 
+<img width="915" height="726" alt="image" src="https://github.com/user-attachments/assets/1585decd-fef9-4d93-bc54-f2e57b3f0b74" />
 
