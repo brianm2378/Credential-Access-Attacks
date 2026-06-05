@@ -17,3 +17,7 @@ The SPN (Service Principal Name) is a unique identifier for a specific service i
 
 <img width="915" height="726" alt="image" src="https://github.com/user-attachments/assets/1585decd-fef9-4d93-bc54-f2e57b3f0b74" />
 
+Threat Hypothesis:
+The Threat actor performed Kerberos ticket manipulation to obtain and forge authentication tickets. Followed by Kerberoasting techniques to request service tickets for accounts with Service Principal Names (SPNs), then extracted user hashes from the service ticket to attempt offline cracking of the service account credentials.
+
+<img width="1469" height="73" alt="image" src="https://github.com/user-attachments/assets/c9b5f679-1c08-4085-9353-2db4c7634fd3" />
