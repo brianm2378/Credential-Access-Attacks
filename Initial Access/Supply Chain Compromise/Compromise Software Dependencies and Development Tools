@@ -4,4 +4,28 @@ may be targeted as a means to add malicious code to users of the dependency.
 
 RISK:
 
-An attacker could compromise third-party
+An attacker could compromise third-party dependencies, package repositories, build tools, source code repositories, CI/CD pipelines, or developer workstations/tools and insert malicious code into trusted software. That code may then be built, signed, deployed, or distributed as legitimate software, leading to compromise of internal systems, customers, or both.
+
+Level of Urgency is High due to the threat of the following factors:
+
+	• Ability to bypass normal security controls
+	• Malware will spread widely across applications and environments
+	• Difficult to detect until after deployment
+	• Affect both your organization and downstream customers
+
+Impact
+
+	• Unauthorized access to systems or data
+	• Remote code execution or malware delivery
+	• Credential theft and privilege escalation
+	• Data exfiltration
+	• Service disruption / outages
+	• Integrity loss of released software
+	• Regulatory, legal, financial, and reputational damage
+
+Threat Hypothesis
+
+The Threat Actor is hosting and publishing malicious node package manager (NPM) software packages on popular code repositories like GitHub. Developers have installed the malicious packages on their corporate workstations and the JavaScript has harvested secrets to be used for credential access.
+
+
+
